@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>G-Store</title>
+    <link rel="stylesheet" href="Store.css">
+</head>
+<body>
+    <h1>G-Store</h1>
+    <table>
+        <thead>
+        <tr>
+            <th></th>
+            <th>Product</th>
+            <th>Product Name</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>Total</th>
+        </tr>
+        </thead>
+        <tbody id="products">
+        <tr class="product">
+            <td><input type="checkbox" class="check"></td>
+            <td>
+                <img src="iphone.png" width="80" height="80">
+            </td>
+            <td>
+                <p>IPhone 12 Pro Max</p> 
+            </td>
+            <td>
+                <div class="compteur">
+                <button type="button" class="plus">+</button> 
+                <p>0</p>
+                <button  type="button" class="minus">-</button>
+            </div>
+            </td>
+            <td class="unitprice">3500</td>
+            <td class="price">0</td>
+        </tr>
+        <tr class="product">
+            <td><input type="checkbox" class="check"></td>
+            <td><img src="sw.png" width="80" height="80"></td>
+            <td>
+                <p>Apple Watch</p>
+            </td>
+            <td>
+                <div class="compteur">
+                <button type="button" class="plus">+</button>
+                <p>0</p>
+                <button type="button" class="minus">-</button>
+            </div>
+            </td>
+            <td class="unitprice">350</td>
+            <td class="price">0</td>
+        </tr>
+        <tr class="product">
+            <td><input type="checkbox" class="check"></td>
+            <td><img src="mac.png" width="80" height="80"></td>
+            <td>
+                <p>MacBook</p>
+            </td>
+            <td>
+                <div class="compteur">
+                <button type="button" class="plus">+</button>
+                <p>0</p>
+                <button type="button" class="minus">-</button>
+            </td>
+                <td class="unitprice">4000</td>
+                <td class="price">0</td>
+            </div>
+        </tr>
+        <tr class="product">
+            <td><input type="checkbox" class="check"></td>
+            <td><img src="ap.png" width="80" height="80"></td>
+            <td>
+                <p>AirPods</p>
+            </td>
+            <td>
+                <div class="compteur">
+                <button type="button" class="plus">+</button>
+                <p>0</p>
+                <button type="button" class="minus">-</button> </td>
+                <td class="unitprice">350</td>
+                <td class="price">0</td>
+                </div>
+        </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td id="total"> 0 </td>
+            </tr>
+        </tfoot>
+    </table>
+    <!--<script src="plusminus_store.js"></script>-->
+    <script src="total.js"></script> 
+</body>
+</html>
